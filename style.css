@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+h1{
+    text-align: center;
+    color: #317713a2;
+    font-family: 'Roboto Mono', monospace;
+}
+.button
+{
+    padding: 20;
+    margin: 0 3px;
+    margin-bottom: 5;
+    border: 2px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 80;
+    
+    
+}
+.button:hover {
+    background: #87aab77f;
+    color: black;
+  }
+ .button:active {
+    background-color: #1a424fa8;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+ }
